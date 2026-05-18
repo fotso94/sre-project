@@ -110,11 +110,11 @@ image:
 
 ## @param ghostUsername Ghost user name
 ##
-ghostUsername: gilbert
+ghostUsername: tete
 ## @param ghostPassword Ghost user password
 ## Defaults to a random 10-character alphanumeric string if not set
 ##
-ghostPassword: "P@ssw0rd!2025"
+ghostPassword: "Doublet92@/"
 ## @param existingSecret Name of existing secret containing Ghost credentials
 ## NOTE: Must contain key `ghost-password`
 ## NOTE: When it's set, the `ghostPassword` parameter is ignored
