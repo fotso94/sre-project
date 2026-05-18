@@ -8,7 +8,7 @@ metadata:
 spec:
   project: deploy # Argo CD projects, default is fine for now
   source:
-    repoURL: 'https://github.com/gesselsam96/sre-project.git' # Your GitHub repo
+    repoURL: 'https://github.com/fotso94/sre-project.git' # Your GitHub repo
     targetRevision: master # Git branch
     path: ghost # Path inside the repo to Helm chart
     helm:
@@ -32,7 +32,7 @@ metadata:
 spec:
   project: deploy # Argo CD projects, default is fine for now
   source:
-    repoURL: 'https://github.com/gesselsam96/sre-project.git' # Your GitHub repo
+    repoURL: 'https://github.com/fotso94/sre-project.git' # Your GitHub repo
     targetRevision: master # Git branch
     path: prometheus # Path inside the repo to Helm chart
     helm:
@@ -56,7 +56,7 @@ metadata:
 spec:
   project: deploy # Argo CD projects, default is fine for now
   source:
-    repoURL: 'https://github.com/gesselsam96/sre-project.git' # Your GitHub repo
+    repoURL: 'https://github.com/fotso94/sre-project.git' # Your GitHub repo
     targetRevision: master # Git branch
     path: grafana # Path inside the repo to Helm chart
     helm:
@@ -82,7 +82,7 @@ metadata:
 spec:
   project: deploy # Argo CD projects, default is fine for now
   source:
-    repoURL: 'https://github.com/gesselsam96/sre-project.git' # Your GitHub repo
+    repoURL: 'https://github.com/fotso94/sre-project.git' # Your GitHub repo
     targetRevision: master # Git branch
     path: fluent-bit # Path inside the repo to Helm chart
     helm:
@@ -109,7 +109,7 @@ metadata:
 spec:
   project: deploy # Argo CD projects, default is fine for now
   source:
-    repoURL: 'https://github.com/gesselsam96/sre-project.git' # Your GitHub repo
+    repoURL: 'https://github.com/fotso94/sre-project.git' # Your GitHub repo
     targetRevision: master # Git branch
     path: splunk-operator # Path inside the repo to Helm chart
     helm:
@@ -135,7 +135,7 @@ metadata:
 spec:
   project: deploy # Argo CD projects, default is fine for now
   source:
-    repoURL: 'https://github.com/gesselsam96/sre-project.git' # Your GitHub repo
+    repoURL: 'https://github.com/fotso94/sre-project.git' # Your GitHub repo
     targetRevision: master # Git branch
     path: splunk-enterprise # Path inside the repo to Helm chart
     helm:
