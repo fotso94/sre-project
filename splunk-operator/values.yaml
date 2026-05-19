@@ -12,7 +12,7 @@ kubeRbacProxy:
 
   # Specify kube-rbac-proxy image
   image:
-    repository: gcr.io/kubebuilder/kube-rbac-proxy
+    repository: quay.io/brancz/kube-rbac-proxy
     pullPolicy: IfNotPresent
     tag: "v0.18.1"
 
