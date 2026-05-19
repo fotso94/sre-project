@@ -120,11 +120,11 @@ splunkOperator:
   # Set resource requests and limits for manager container
   resources:
     limits:
-      cpu: 1000m
-      memory: 2000Mi
+      cpu: 500m
+      memory: 1000Mi
     requests:
-      cpu: 1000m
-      memory: 2000Mi
+      cpu: 100m
+      memory: 512Mi
 
   # Specify nodes that can schedule the Splunk Operator pod
   # reference: https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector
