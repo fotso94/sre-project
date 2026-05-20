@@ -544,6 +544,7 @@ config:
         Tag ghost
         Path /bitnami/content/logs/*.log
         Refresh_Interval 10
+        Read_from_Head On
         #Parser logfmt        
   ## @param config.filters [string] Set of plugins that can be used to filter, modify, or enrich log data that is processed by Fluent Bit.
   ## https://docs.fluentbit.io/manual/pipeline/filters
@@ -577,6 +578,8 @@ config:
         TLS.Verify Off
         Splunk_Token 42C68041-C0A3-DC23-DD4E-04076460BCAC
         event_index main
+        event_source ghost-logs
+        event_sourcetype ghost
         Log_Level debug
         #source ghost-logs
         #Splunk_Send_Raw On        
